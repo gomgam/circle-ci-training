@@ -24,6 +24,6 @@ jobs:
       - run:
           name: Test
           command: yarn test
-      # - run:
-      #     name: Firebase Deploy
-      #     command: ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN" --only hosting --project simple-react-project-aeb4d
+      - run:
+          name: Firebase Deploy
+          command: ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN" --only hosting --project gam-circlec-ci-training
